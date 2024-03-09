@@ -22,7 +22,7 @@ heroku==0.1.4
 idna==3.3
 importlib-metadata==4.10.1
 joblib==1.1.0
-keras==2.7.0
+keras==2.8.0
 Keras-Preprocessing==1.1.2
 libclang==12.0.0
 Markdown==3.3.6
