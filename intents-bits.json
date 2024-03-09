@@ -1,0 +1,122 @@
+{"intents": [
+    {"tag":"greetings",
+     "patterns":["hi","hello","hey","what's up","Good day","Sup","howdy","Yo"],
+     "responses": ["Hii","Hello","Helllllllo!!", "botHello", "Heyy", "What's up"]
+    },
+    {"tag":"friends",
+     "patterns":["how do we get the same class as our friends","can friends manage to get same teachers in credit system","friends in same class","same teacher for me and my besti","how to end up in same class","Is there a way for me and my friends to get same faculty","credit system with friends","Can me and my friend get same courses in credit system"],
+     "responses": ["Sit together and keep your all the teachers together and next day while registering try your best to register the same. Try to select teachers that the crowd will not prefer but will be good enough. Its all about luck here.","Yes many get the same, you try to set your time table together and a bit different from the crowd to increase your chances."]
+    },
+    {"tag":"courses",
+     "patterns":["Should I take only core courses or is it necessary to take electives too","which to choose more core courses or electives","is core courses mandatory","can i take only elective","courses to prioritize","recommended courses","required courses"],
+     "responses": ["It is generally preffered to prioritize and finish core credits first. But, it's all about getting desired credits for the semester. If you lack credits, you can and should take electives and aim for atleast 20+ credits every semester."]},
+
+    {"tag":"core",
+      "patterns":["What are core and elective courses","core courses and elective courses","different types of courses","which courses are mandatory","which courses are optional","important courses"],
+      "responses": ["Core courses are mandatory courses you must study to meet the requirements of your program. Electives are courses you can choose, allowing you to study topics that interest you. Electives, when added to your core courses, make up the total number of units needed to complete your degree."]},
+    {"tag":"crash",
+      "patterns":["What to do if the site crashes","What if the server is down and you're unable to fill your preferences","CREDIT SYSTEM site crash","credit system server down","credit system site not responding","what do i do if credit system site crashes","credit system site not working"," are credit system preferences saved if site crashes"],
+      "responses":["If the servers are down or the site has crashed, best you can do is wait for it to get back to working state, and be connected to you friends and be active in common groups to stay updated if the site is working or not. Also, don't immediately assume that it has crashed, there's a high chance of CREDIT SYSTEM site getting too slow due too heavy traffic but it still might be working, so wait for a few minutes, and also check with your friends and colleagues if they're facing similar issues"]
+    },
+    {"tag":"subjects",
+      "patterns":["What subjects should we choose","How many subjects do I have to register","subjects that i have to take","courses to opt for","subjects which i can register","extra subjects","compulsory subjects"],
+      "responses":["You are supposed to take the courses sent to you on email by the Dean or HOD. Other than that, you can select any UE(University Elective) which captivates your interest (only after second semester).","You are supposed to take the subjects sent to you on email by the Dean or HOD. Other than that, you can select any UE(University Elective) which captivates your interest. The number of subjects you take doesn't matter but you should register for 22 - 24 credits each semester to avoid extra burden in the final year."]
+    },
+    {"tag":"slots",
+    "patterns":["Should I think about which slots I am picking or should pick them randomly"," pick timeslot randomly or in some order","which slot to pick","how to pick slots","slot picking","picking slots","mornig or evening slot","which slot should i pick"],
+    "responses":["We would recommend you to take all the morning slots(A1,B1,C1..) or all the evening slots(A2,B2,C2,...). If not, take the ones which are available."]
+    },
+    {"tag":"timetable",
+    "patterns":["How should we choose our time table","How to structure your timetable and how the credit system portal works","how to prepare our timetable","timetable","create best timetable in CREDIT SYSTEM","my timetable","labs in morning","labs in evening","how should we arrange classes","how to schedule my classes","how to schedule my timetable"],
+    "responses":["In order to avoid confusion, the best way to start is by choosing when are you most productive i.e. in the morning or evening and accordingly decide your theory and lab slots. If you decide for theory in the morning, then its a good practice to have labs in the afternoon and vice-versa. This is also encouraged since some faculties take up theory classes in their corresponding labs in order to complete the syllabus. Structure your timetable in such a way that you have all theory slots in the morning and labs in the afternoon or vice-versa and also make sure not to have too many labs on a single day. Once you login to the CREDIT SYSTEM portal, you'll be presented with the EC2egories of courses as in the My Curriculum section in TAXILA. On selecting one of these, you'll be presented the list of courses under that EC2egory, click on Register and select the theory and lab slots of the desired faculty (both of the same faculty)."]
+    },
+  {"tag":"credits",
+    "patterns":["How many credits are ideal to take in a sem?","How many credits should we take in 2nd semester","How to complete credits","best strategy for credit distribution","how many credits to take per sem","credit system","best way to choose credits","about credits"],
+    "responses":["You are expected to complete a certain number of credits by the end of your 4th year to get the degree. Ideally it is recomended to take 20-24 credits in a semester. Try to take around 21-23 credits in your second semester. "]
+  },
+  {"tag":"electives",
+    "patterns":["How do I register for electives","how to choose elective","elective registration","electives","how many electives can I take","elective subject","about elective","what is elective"],
+    "responses":["You can select any UE(University Elective) which captivates your interest. The number of subjects you take doesn't matter but you should register for 22 - 24 credits each semester to avoid extra burden in the final year."]
+  },
+  {"tag":"effective",
+    "patterns":["How to choose slots and teachers effectively","time slot and teachers","credit system class slots","how to choose teachers and slots","effictive way of choosing faculty for credit system","best faculty","best teacher","best slot"],
+    "responses":["There is no effective way of choosing slots. Even if you plan one, it isn't guranteed that you would get all the slots you wished for, owing to the large number of students registering at the same time. However, keeping all theory slots in the morning and lab slots in the evening and vice-versa may help you going for many other faculties during CREDIT SYSTEM if in case the slots of the faculty that you wished for is full."]
+  },
+  {"tag":"morning-afternoon",
+    "patterns":["Should we take theory classes in the morning and lab classes in the evening" , "Should we opt for theory classes in the morning and lab in the afternoon, or the other way round","time slot to choose class","morning or afternoon time for class","what time should i take classes","morning class","evening class","about lab class","about theory class"],
+    "responses":["In order to avoid confusion, the best way to start is by choosing when are you most productive i.e. in the morning or evening and accordingly decide your theory and lab slots. If you decide for theory in the morning, then its a good practice to have labs in the afternoon and vice-versa. This is also encouraged since some faculties take up theory classes in their corresponding labs in order to complete the syllabus. Check out with seniors to know about various faculties and then prepare 2-3 timetables based on their reviews and the available slots in your timetable. Just try to avoid a mix of both in the morning or in the evening."]
+  },
+  {"tag":"credits",
+    "patterns":["What are the maximum and minimum credits per semester","how may credits should I take in CREDIT SYSTEM","credits per sem","min and max credits","minimum and maximum credits per semester","how many credits","credits per sem","credit in one sem","credits per semester","credits in one semester"],
+    "responses":["One can take minimum 16 and maximum 27 credits in a semester."]
+  },
+  {"tag":"credit system",
+    "patterns":["What is credit system","CREDIT SYSTEM","define CREDIT SYSTEM","explain credit system","what exactly is CREDIT SYSTEM","credit system","what credit system","credit system what","pls tell me credit system is what","what is ment by credit system","meaning credit system","ment credit system","what is the meaning of credit system","what is credit system"],
+    "responses":["CREDIT SYSTEM is a system which BITS follows to let its students choose the subjects they want to study and the teachers they want to study the subjects from."]
+  },
+  {"tag":"platform",
+    "patterns":["what will be the platform for credit system","How is credit system conducted", "How to operate credit system on Taxila and all process","CREDIT SYSTEM platform","where does CREDIT SYSTEM take place","where will credit system happen","where credit system","where will credit system be conducted","platfor for credit system","who is the palatform for credit system","credit system platform","credit system Taxila","is credit system conducted in Taxila","where credit system"],
+    "responses":[ "A different TAXILA site link shows in TAXILA spotlight which only opens during your time slot."]
+  },
+  {"tag":"reschedule",
+    "patterns":["is there a option for rescheduling credit system","how to give credit system again","I messed up my credit system what can I do","re CREDIT SYSTEM","re-CREDIT SYSTEM","CREDIT SYSTEM again","how can i choose my subjects after CREDIT SYSTEM","how to apply for credit system again","where will be re credit system be conducted","will re credit system","will credit system take place again","can credit system take place again","will credit system be reschedule","how to re apply for credit system","how to re-apply for credit system","how to reapply for credit system","how to re schedule credit system"],
+    "responses":["No, there is no option to reschedule CREDIT SYSTEM :( . However, you can register for courses in add/drop"]},
+  {"tag":"language",
+    "patterns":["Do we have to chose any other language along with english?","languages other than engilsh","language subjects","is taking a different language subject compulsory","different language courses","what are the different language courses","what are the different language subjects","do we have to take other languages","can we take other languages","how to take foreign language","is taking foreign language compoulsary","how can we take foreign language courses"],
+    "responses":["Yes, in your curriculum, you have to learn one foreign language atleast. There is an option for Espenol, French, German, Japanese, Chinese  and Greek."]
+  },
+  {"tag":"internet",
+    "patterns":["What do i do if i get a server error because of my slow internet","how to crack credit system with slow internet","credit system with poor net","CREDIT SYSTEM server error","credit system site not working","why is credit system not working with slow internet","how to manage credit system with slow internet","how to crack credit system with slow internet","can we do credit system with slow internet","how can we do credit system in slow internet","can we give credit system using slow internet","can we take up credit system when internet is slow","can we use slow internet for credit system","how to use slow internet for credit system","credit system using slow internet","how to credit system along with slow internet","credit system along side slow internet"],
+    "responses":["Firstly, don't immediately assume that the site has crashed due to your internet connection, there's a high chance of CREDIT SYSTEM site getting too slow due too heavy traffic but it still might be working, so wait for a few minutes, and also check with your friends and colleagues if they're facing similar issues. Unfortunately, you only get one chance to chooose your slots and teachers during CREDIT SYSTEM. For branches like CSE, where the population is very high, the slots for the desired teachers finish very quickly so you have to be prepared beforehand itself. If you end up with very little credits, contact your faculty advisor and they might assist you to get some seats increased for some teachers in some slots."]
+  },
+  {"tag":"subjects",
+    "patterns":["What courses to choose after sem 2","What subjects will be given in 2nd semester","subjects after second semester","subjects offered after second sem","what all subjects can i take after second semester","what courses can we take after second sem","what courses can we take after second semester","whatall subjects can we take up after second semester","whatall subjects can we take up after second sem","list of subjects after second semester","list of courses after second semester"],
+    "responses":["You will receive a mail. It is different for different branches"]
+  },
+  {"tag":"migration",
+    "patterns":["What is the procedure of selecting courses for students going program migration","course migration process","procedure for course migration","how to migrate to a different course","subjects for course migration students","syllabus for course migration students","courses for branch migration","how to choose syllabus for branch migration","all questions related to course migration","all answers realted to branch migration","all questions related to branch migration","all answers realted to course migration","course migration","branch migration"],
+    "responses":["Program migration is done at the end of the first year (i.e. after second semester). The ranking is done based on the following two criteria: 60% weightage is given to the grades obtained in the two subjects specific to the programme you wish to migrate to and 40% weightage is given to the CGPA at the the end of the first year. Hence, when you are registering courses for the second semester make sure you register for the specific courses of the programme you wish to migrate to. A mail regarding the specific courses would be circulated before CREDIT SYSTEM, so that you can plan it accordingly."]
+  },
+  {"tag":"internals",
+    "patterns":["Marking pattern of bits like for DAs and quizes","Marking scheme for internals.","marking scheme","mark rubrics","Mark distribution for DA and quizzed","maximum number of DAs and quizzes that a faculty of can conduct","distribution of DAs and quizzes","evaluation system for internals","syntax for internals","marking schemes for internals","weightage distribution of internals","what are internals","how is internal evaluated","internals are evaluated how","evaluation of internal","weightage of interanal distribution","mark  segregation"," segregation of marks","how are marks segregated"," segregated marks"],
+    "responses":["It depends on your faculty. In the introductory class they'll explain the marking scheme and rubrics. However, in general, faculties follow the system of two quizzes of 10 marks each and a DA of 10 marks. Although they can change it according to their course needs."]
+  },
+
+  {"tag":"reEC2",
+    "patterns":["When will the reEC2 forms come out?","ReEC2 possible","ReEC2 forms","Re EC2 process","procedure for re EC2","how to apply for re EC2","add ons while applying for re-EC2","appliEC2ion for reEC2 without proof","process of reEC2","how to be successful in reEC2 appliEC2ion"],
+    "responses":["ReEC2 application generally come out after the marks are declared, ReEC2 is applied on Taxila where you have to give the reason and upload some proof"]
+  },      
+  {"tag":"reEC2",
+    "patterns":["When will the reEC2 forms come out?","ReEC2 possible","ReEC2 forms","Re EC2 process","procedure for re EC2","how to apply for re EC2"],
+    "responses":["ReEC2 application generally come out after the marks are declared, ReEC2 is applied on Taxila where you have to give the reason and upload some proof"]
+  },
+  {
+    "tag":"reevaluation",
+    "patterns":["How to apply for re evaluation in EC3","EC3 re evaluation","EC3 paper re checking","what is the process for EC3 re evaluation","procedure for EC3 re evaluation","How to apply for re-evaluation in EC3","How to apply for re evaluation in EC3","How to apply for reevaluation in EC3"],
+    "responses":["You have to apply for re-evaluation on Taxila. After marks are uploaded on Taxila you have to pay 100 Rs for paper seeing on Taxila and only after that you can proceed to apply for re-evaluation by paying Rs 400"]
+  },
+  {"tag":"answersheet",
+    "patterns":["Can we view answer scripts in EC3","can we see our EC3 paper","how to view EC3 paper","paper seeing for EC3","process for EC3 paper seeing"],
+    "responses":["To view answer sheet in EC3 you have to apply for paper seeing on Taxila by paying Rs. 100"]
+  },
+  {"tag":"result",
+    "patterns":["When would we get out EC3 results","when will be EC3 results announced","EC3 results","EC3 results announcement","declaration of EC3 results"],
+    "responses":["It takes around 2-3 weeks to declare the marks after the exam of last slot is over and around one more week to declare the grades."]
+  },
+  {"tag":"check",
+    "patterns":["Does our own faculty check our EC3 papers?","who checks our EC3 paper","which faculty checks EC3 paper","faculty EC3 paper","who is the teacher who checks our EC3 paper"],
+    "responses":["There is still unclarity about who checks EC3 papers."]
+  },
+  {"tag":"reevaluation",
+    "patterns":["How to apply for re-evaluation in EC3","How to apply for reevaluation in EC3","How to apply for re evaluation in EC3","reevaluation EC2","re evaluation EC3","process for EC3 reevaluation","process for EC3 re evaluation","EC3 re checking procedure","process for EC2 re-evaluation"],
+    "responses":["There is no re-evaluation process for EC3, you have to personally ask your faculty to re-evaluate your paper"]
+},
+{"tag":"pass",
+  "patterns":["EC3 pass","EC3 passing criteria","criteria for passing EC3","how many marks do we need to pass EC3","EC3 pass","pass EC3"],
+  "responses": [ " In Theory component you need min 40% \n In Lab component, min 50% \n In Project component, min 50% "]
+},
+{"tag":"courses",
+  "patterns":["courses for second semester","second semester elective courses","which subjects in second semester","electives second semester","secondsemester electives","choose electives for second semester"],
+  "responses": [ " There are electives such as Data Storage Technology and Networks,Security Fundamentals for Cloud,Cloud Economics,API-driven Cloud Native Solutions,DevOps for Cloud,Design and Operation of Data Centers,Data Warehousing,Introduction to Data Science"]
+}
+]}
